@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    /* File Layout */
+    "rootDir": "./src",          // apna ts code src folder mai rakho
+    "outDir": "./dist",          // compiled js dist folder mai aayega
+
+    /* Environment Settings */
+    "target": "es6",             // modern JS output
+    "module": "es6",             // browser compatible module system
+    "lib": ["es6", "dom"],       // browser + modern features
+    "types": [],
+
+    /* Other Outputs */
+    "sourceMap": false,          // true rakhega to .map file banegi
+    "declaration": false,        // true rakhega to .d.ts file banegi
+    "declarationMap": false,
+
+    /* Type Checking */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    /* Style Options */
+    // "noImplicitReturns": true,
+    // "noImplicitOverride": true,
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true,
+
+    /* Misc */
+    "skipLibCheck": true
+  },
+  // "exclude":["analytic.ts" , "classes.ts"], i can use this if dont  want to compile a certain file.
+  // "exclude":["**dev.ts"], All the dev.ts file will be ignored
+  // "exclude":["**/*dev.ts"], any dev.ts file that is in any folder it will be excluded and wont compile 
+  // "include":  ["interface" , "classes"] here i can iinclude the files that  i want to compile.
+}
+                           
